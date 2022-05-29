@@ -863,8 +863,9 @@ padding-left: 10px;}
 
 
 
-    .modal-input:hover + .modal-icon {fill: var(--accent-color);}
-    .modal-input:focus + .modal-icon {fill: var(--accent-color);}
+   .modal-input:focus + .modal-icon {fill: var(--accent-color);}
+
+   
 
 
 

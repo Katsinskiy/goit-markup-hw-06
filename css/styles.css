@@ -889,11 +889,12 @@ align-items: center;
        margin-right: 5px;   
    }
 
-   .modal-check:checked + .check-text::before {background-color: var(--accent-color);
-border: none;
-background-image: url(../images/check.svg);
-background-position: center;
-background-repeat: no-repeat;}
+   .modal-check:checked + .check-text::before {
+       background-color: var(--accent-color);
+       border: none;
+       background-image: url(../images/check.svg);
+       background-position: center;
+       background-repeat: no-repeat;}
 
 
 

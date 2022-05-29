@@ -768,7 +768,7 @@ opacity: 1;}
     cursor: pointer;
     width: 30px;
     height: 30px;
-    border: 1px solid #999999;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 50%;
     top: 8px;
     right: 8px;
@@ -801,7 +801,7 @@ opacity: 1;}
 .modal-input {
     width: 100%;
     height: 45px;
-    border: 1px solid #757575;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 3px;
     padding-left: 30px;
 }
@@ -812,7 +812,7 @@ opacity: 1;}
 
 
 
-.modal-label {color: #757575;
+.modal-label {color: rgba(33, 33, 33, 0.2);
     font-size: 12px;
     line-height: 1.16;
     display: block;
@@ -830,12 +830,15 @@ padding-left: 10px;}
 .modal-comment {
     width: 100%;
     height: 120px;
-    border: 1px solid #757575;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 3px;
     margin-bottom: 10px;
     padding: 10px;
     resize: none;
 }
+
+.modal-comment:focus {
+    border-color: var(--accent-color);}
 
 
 .btn.form-list-btn {
@@ -863,8 +866,8 @@ padding-left: 10px;}
         fill: currentColor;
     }
     
-    .modal-input:hover {
-    border-color: var(--accent-color);}
+    /* .modal-input:hover {
+    border-color: var(--accent-color);} */
     .modal-input:focus {
         border-color: var(--accent-color);}
 
@@ -874,7 +877,8 @@ padding-left: 10px;}
 
 
    .check-text {display: flex;
-align-items: center;}
+align-items: center;
+}
 
    .check-text::before {
        content: " ";
@@ -892,15 +896,7 @@ background-position: center;
 background-repeat: no-repeat;}
 
 
-.form-privacy .link-current{
-    font-weight: 400;
-}
 
-.form-privacy {
-
-font-size: 14px;
-line-height: 1.71;
-vertical-align: top}
 
 
 

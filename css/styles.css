@@ -866,10 +866,10 @@ padding-left: 10px;}
         fill: currentColor;
     }
     
-    /* .modal-input:hover {
-    border-color: var(--accent-color);} */
     .modal-input:focus {
-        border-color: var(--accent-color);}
+    border-color: var(--accent-color);}
+    /* .modal-input:focus {
+        border-color: var(--accent-color);} */
 
 
 
